@@ -2,14 +2,14 @@
 using namespace std;
 
 
-#define ll 				long long
-#define vi 				vector<ll>
-#define pii				pair<ll,ll>
+#define ll 			long long
+#define vi 			vector<ll>
+#define pii			pair<ll,ll>
 #define mod 			1000000007
 #define inf 			1e18
-#define ff 				first
-#define ss 				second
-#define pb				push_back
+#define ff 			first
+#define ss 			second
+#define pb			push_back
 #define mpii 			map<ll,ll>
 #define ps(x,y) 		fixed<<setprecision(y)<<x
 #define w(t)			cin>>t; while(t--)
