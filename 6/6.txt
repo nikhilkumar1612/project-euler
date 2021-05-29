@@ -1,0 +1,7 @@
+This question is relatively simple than other questions. We make use of the formulae,
+	i. Sum of first n natural numbers is given by,
+			1+2+3+4+.....+n = (n*(n+1))/2
+   ii. Sum of squares of first n natural numbers is given by,
+   			1+4+9+16+.....+n*n = (n*(n+1)*(2*n+1))/6
+Time complexity : O(1).
+Space complexity : O(1). 
