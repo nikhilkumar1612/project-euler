@@ -1,0 +1,6 @@
+Given that a+b+c=1000,
+We can come a conclusion that a cannot be greater than 332 because if a=333 then b must be at least 334 (given b>a). Similarly c must be at least 335(given c>b)
+but a+b+c will be 1002.
+Hence, we loop through a from 0 to 332.
+For every a we loop through b from a+1 to 499. If b becomces greater than 500 then there does not exist c such that c>b && a+b+c=1000.
+Everytime we check if a^2 + b^2 = c^2, as its given that only one such triplet exists. We can terminate the algorithm once we find it.   
