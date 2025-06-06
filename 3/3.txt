@@ -1,3 +1,0 @@
-The idea is to use prime factorization and update the max variable which keeps track of the maximum prime factor.
-First divide the given number until it becomes odd. Because every other prime number except 2 is odd.
-Starting from 3 check for every odd number if it is a factor. If it is a factor update max. 

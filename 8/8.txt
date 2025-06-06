@@ -1,3 +1,0 @@
-The question is to be solved using sliding window technique.
-every time in the loop we have to divide number with the left pointer and multiply with the right pointer. But when we encounter zero we cannot do the same thing.
-Hence this is a special case to be handled seperately.

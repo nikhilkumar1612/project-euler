@@ -1,7 +1,0 @@
-Given n=20 and we have to calculate an integer which will be divisible by all the numbers from 1 to 20,
-First let us look at a smaller example with n=10, 2520 is the number which will be divisible by all the number from 1 to 10.
-Prime factorization of 2520 is 2^3 * 3^2 * 5^1 * 7*1, which includes all the primes between 1-10.
-Another important observation to make here is that every prime number within the range is expressed as 2^x <= n. Maximizing x.
-for 2, x can be 3 hence 2^3 <= 10, but it cannot be 4. So we'll have to find maximum powers of all the primes in the range [1,20]. Such that p1^x1 <= 20.
-For n=20,2^4 * 3^2 * 5 * 7 * 11 * 13 * 17 * 19, will be the final answer. Which is 232792560.
-Using sieve we fetch all the primes between 1 to 20, and compute their highest power and include it in our answer.

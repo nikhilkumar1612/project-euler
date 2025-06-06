@@ -1,3 +1,0 @@
-The idea is to solve this question using prime sieve and prime theory.
-You can study more aboubt prime theory from https://primes.utm.edu/howmany.html
-The execution time of the algorithm increases as the upper bound for the sieve increases.
